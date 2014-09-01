@@ -1,0 +1,64 @@
+<div id="menu-area" class="menu-container-left">
+            <!-- MENU TITLE -->
+            <div class="menu-header">
+                <h4 style="padding-left: 20px; padding-top: 5px;">
+                    CHUYÊN MỤC
+                </h4>
+            </div>
+
+            <div class="menu-heading">
+                NAVIGATION
+            </div>
+
+            <!-- MENU LIST -->
+
+            <div class="menu-list" data-bind="foreach: {data : router.navigationModel, as : 'route'}">
+                <!-- Only show the item that has isShown : true -->
+                <!-- ko if: isShown === true -->
+                <div class='menu-item'>
+                    <a data-bind="attr: { href: hash }">
+                        <div class="menu-item-heading"></div>
+                        <span class="menu-icon">&nbsp;</span><span data-bind="html: title"></span>
+                    </a>
+                </div>
+            <!-- /ko -->
+            </div>
+
+
+            <div class="menu-heading">
+                CUSTOM NAVIGATION
+            </div>
+
+            <div class="menu-list">
+                <div class='menu-item'>
+                    <a href="#incoming">
+                        <div class="menu-item-heading"></div>
+                        <span class="menu-icon">&nbsp;</span>Porfolio
+                    </a>
+                </div>
+                <div class='menu-item'>
+                    <a href="#incoming">
+                        <div class="menu-item-heading"></div>
+                        <span class="menu-icon">&nbsp;</span>Projects
+                    </a>
+                </div>
+                <div class='menu-item'>
+                    <a href="#incoming">
+                        <div class="menu-item-heading"></div>
+                        <span class="menu-icon">&nbsp;</span>About
+                    </a>
+                </div>
+                <div class='menu-item'>
+                    <a href="#incoming">
+                        <div class="menu-item-heading"></div>
+                        <span class="menu-icon">&nbsp;</span>Contact
+                    </a>
+                </div>
+
+                
+            </div>
+
+
+    <div class="clear"></div>
+</div>
+
