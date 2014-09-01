@@ -1,7 +1,7 @@
 MKnight
 =========
 
-MKnight is a mobile application template using DurandalJS framework
+MKnight is a Responsive Multipurpose Application Template using DurandalJs Framework
 
 Features
 --
@@ -10,3 +10,4 @@ Features
   - Modular using RequireJS
   - Easy to configuration
   - Data modeling, data binding using KnockoutJs
+  - Clear data flow designed for easily use
