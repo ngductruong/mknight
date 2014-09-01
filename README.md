@@ -3,6 +3,10 @@ MKnight
 
 MKnight is a Responsive Multipurpose Application Template using DurandalJs Framework
 
+
+<a href="http://truongnd.net/projects/mknight" target="_blank">View Demos</a>
+
+
 Features
 --
   - Build based on Bootstrap 3
