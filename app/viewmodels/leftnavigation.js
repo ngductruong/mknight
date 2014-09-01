@@ -17,8 +17,6 @@ define([
         
         ko.bindingHandlers.slimScrollPlugin = {
             init: function(element, valueAccessor, allBindings, viewModel, bindingContext) {
-
-                //
                 // console.log('CUSTOM BINDING _ SLIMSCROLL');
                 var options = valueAccessor() || {};
                 $(element).slimScroll({

@@ -1,0 +1,1 @@
+define(["jquery","knockout","durandal/app"],function(){return new function(){var e=this;return e}});

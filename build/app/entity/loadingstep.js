@@ -1,0 +1,1 @@
+define(["knockout"],function(e){return function(){var t=this;return t.StepName=e.observable(),t.IsFinish=e.observable(!1),t.Value=e.observable(),t.Finish=function(){t.IsFinish(!0)},t}});

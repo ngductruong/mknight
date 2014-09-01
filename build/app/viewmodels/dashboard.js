@@ -1,0 +1,1 @@
+define(["jquery","knockout","durandal/app"],function(e,t,r){return new function(){var e=this;return e.ToggleLeftPanel=function(){var e=r.Snapper;"left"==e.state().state?e.close():e.open("left")},e.ToggleRightPanel=function(){var e=r.Snapper;"right"==e.state().state?e.close():e.open("right")},e}});

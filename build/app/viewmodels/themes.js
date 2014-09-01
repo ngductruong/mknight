@@ -1,0 +1,1 @@
+define(["jquery","knockout","durandal/app"],function(){return new function(){var e=this;return e.ColorPalettes=["#556270","#4ECDC4","#C7F464","#FF6B6B","#C44D58"],e}});

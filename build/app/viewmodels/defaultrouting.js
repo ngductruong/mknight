@@ -1,0 +1,1 @@
+define(["jquery","knockout","durandal/app"],function(e,t){return new function(){var e=this;return e.IsNavigated=t.observable(!1),e.SystemUnitNavigating=t.computed(function(){e.IsNavigated()||router.navigate("dashboard")}),e}});

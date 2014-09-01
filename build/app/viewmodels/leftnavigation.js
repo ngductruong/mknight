@@ -1,0 +1,1 @@
+define(["jquery","plugins/router","durandal/app","knockout","slimscroll-plugin"],function(e,t,r,o){return new function(){var t=this;return o.bindingHandlers.slimScrollPlugin={init:function(t,r){r()||{},e(t).slimScroll({position:"left",height:"580px",railVisible:!0,alwaysVisible:!0,allowPageScroll:!1})}},t}});

@@ -1,0 +1,1 @@
+define(["jquery","plugins/router","durandal/app","knockout"],function(e,t,r,n){return new function(){var e=this;return e.ViewModel=n.observable(r.ViewModel),e.IsCalled=n.observable(!1),e.activate=function(){e.IsCalled(!0)},e}});

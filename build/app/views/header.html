@@ -1,0 +1,61 @@
+
+
+<!-- BEGIN TOP NAVIGATION BAR -->
+<div class="header-inner">
+
+<!-- BEGIN LOGO -->
+<a class="navbar-brand" href="/_Layouts/Application/Dashboard.aspx" style=" padding: 7px; ">
+    <img src="assets/img/transfer/logo_aspera_notext.png" alt="">
+</a>
+    <h5 style="
+    color: #fff;
+    display: inline;
+    line-height: 20px;
+    font-size: 16px;
+    font-weight: bold !important;
+    float: left;
+    text-align: center;
+" class="col-lg-7 hidden-md hidden-sm hidden-xs">
+        <!-- <marquee>Hệ thống trao đổi dữ liệu tốc độ cao</marquee> -->
+            HỆ THỐNG TRAO ĐỔI DỮ LIỆU - ĐÀI TRUYỀN HÌNH VIỆT NAM
+    </h5>
+
+<!-- END LOGO -->
+
+<!-- BEGIN RESPONSIVE MENU TOGGLER -->
+<a href="javascript:;" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+    <img src="assets/img/menu-toggler.png" alt="">
+</a>
+<!-- END RESPONSIVE MENU TOGGLER -->
+
+<!-- BEGIN TOP NAVIGATION MENU -->
+<ul class="nav navbar-nav pull-right">
+
+<!-- BEGIN USER LOGIN DROPDOWN -->
+<li class="dropdown user">
+    <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true" data-bind="click:UserProfileClick">
+        <img alt="" data-bind="attr:{src:CurrentUser().UserAvatar}" height="25" width="25">
+        <span class="username" data-bind="text:CurrentUser().UserName"></span>
+        <i class="fa fa-angle-down"></i>
+    </a>
+    <ul class="dropdown-menu" data-bind="style:{display:UserProfileClass}">
+        <li>
+            <a href="/Admin.aspx" data-bind="visible:CurrentUser().IsAdmin(), enable:CurrentUser().IsAdmin()"><i class="fa fa-key"></i> Quản trị</a>
+        </li>
+        <li>
+            <a href="/ModManagement.aspx" data-bind="visible:CurrentUser().IsMod(), enable:CurrentUser().IsMod()"><i class="fa fa-key"></i> Quản lý phòng ban</a>
+        </li>
+        <li>
+            <a href="/ChangeProfileInfo.aspx"><i class="fa fa-key"></i> Thông tin cá nhân</a>
+            <a href="/_layouts/closeConnection.aspx?loginasanotheruser=true"><i class="fa fa-key"></i> Đăng xuất</a>
+        </li>
+    </ul>
+</li>
+<!-- END USER LOGIN DROPDOWN -->
+
+</ul>
+<!-- END TOP NAVIGATION MENU -->
+</div>
+<!-- END TOP NAVIGATION BAR -->
+
+

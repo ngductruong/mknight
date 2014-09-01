@@ -1,0 +1,1 @@
+define(["jquery","plugins/router","durandal/app","knockout"],function(){return new function(){var e=this;return e}});

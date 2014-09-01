@@ -92,7 +92,7 @@ html, body {
   right: auto;
   bottom: 0;
   left: auto;
-  width: 265px;
+  width: 245px;
   height: auto;
   overflow: auto;
   -webkit-overflow-scrolling: touch;
@@ -127,14 +127,14 @@ html, body {
 
 /* Show "Left" drawer for the "Right" drawer in the demo */
 .snapjs-right .menu-container-left {
-    display: block;
+    /* display: block; */
     right: 0;
     left: auto;
 }
 
 /* Hide the actual "Right" drawer in the demo */
 .snapjs-right .menu-container-right {
-    display: none;
+    /* display: none; */
 }
 
 
@@ -200,4 +200,39 @@ transition: all 300ms ease;
   opacity: 0.5;
   padding: 15px;
   font-size: 12px;
+}
+
+
+
+
+/* PAGE CONTENT ELEMENTS */
+.page-title-bar {
+  background-color: #556270;
+  text-align: center;
+  color: #fff;
+  padding: 10px 0px 10px 0px;
+}
+.page-title-bar .menu-button {
+  float : left;
+  padding: 15px 10px 10px 20px;
+  margin: -10px;
+  cursor: pointer;
+}
+.page-title-bar .menu-button .menu-button-inner {
+   background-image : url('../img/menu-toggler.png');
+   background-repeat: no-repeat;
+   height: 15px;
+   width: 20px;
+}
+.page-title-bar .about-button {
+  float : right;
+  padding: 10px 10px 10px 10px;
+  margin: -10px 0px -10px -10px;
+  cursor: pointer;
+}
+.page-title-bar .about-button .about-button-inner {
+   background-image : url('../img/toright.png');
+   background-repeat: no-repeat;
+   height: 20px;
+   width: 20px;
 }

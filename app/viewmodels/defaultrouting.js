@@ -8,9 +8,10 @@ define(['jquery', 'knockout','durandal/app'],
 function($, ko,app) {
     return new function() {
         var self = this;
+        self.IsNavigated = ko.observable(false);
 
         self.SystemUnitNavigating = ko.computed(function() {
-            router.navigate('home');
+        	if(!self.IsNavigated()) router.navigate('dashboard');
         });
         return self;
     };
